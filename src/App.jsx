@@ -1,4 +1,4 @@
-import { Home } from './components/home/home'
+import { Home } from './components/Home/Home'
 import { NavBar } from './components/NavBar/NavBar'
 import { ItemListContainer } from './components/ItemListContainer/ItemListContainer'
 import { Footer } from './components/Footer/Footer'
