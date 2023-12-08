@@ -20,14 +20,10 @@ AK STORE es una aplicación web desarrollada en React que permite a los usuarios
 
 ## Instalación
 
-1. Clona este repositorio: `git clone https://github.com/Saimon2004/ak-store.git`
+1. Clona este repositorio: `git clone https://github.com/Saimon2004/PreEntregaFinal-React-Simon-Ozan.git`
 2. Instala las dependencias: `npm install`
 3. Inicia la aplicación: `npm start`
 
 ## Autor
 
 [Autor del Proyecto](https://github.com/Saimon2004)
-
--imbb
-
--pasar las credenciales al profe
