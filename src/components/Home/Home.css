@@ -1,0 +1,37 @@
+.main-home {
+  min-height: 90vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../../../public/fondos/best-ak-47-skins.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-home h1 {
+  font-family: "Francois One", sans-serif;
+  font-size: 80px;
+}
+
+.main-home h3 {
+  font-family: "Rubik";
+  font-size: 40px;
+}
+
+.main-home p {
+  font-weight: bold;
+  text-wrap: pretty;
+
+  width: 30%;
+}
+
+.buttons button {
+  margin-left: 80px;
+}

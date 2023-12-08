@@ -1,0 +1,7 @@
+.cart-items{
+    background-color: white;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto 25% 5%;
+    align-items: center;
+}

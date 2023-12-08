@@ -1,0 +1,48 @@
+.section-tienda-contenedor {
+  margin-left: 10px;
+  height: 100%;
+  color: white;
+}
+
+.section-tienda-contenedor h4 {
+  margin-top: 10px;
+}
+
+.section-tienda-contenedor hr {
+  border-top: 2px solid white;
+  opacity: 1;
+}
+
+.section-tienda-contenedor ul {
+  list-style: none;
+  font-weight: bold;
+  padding: 0;
+}
+
+.section-tienda-contenedor li {
+  cursor: pointer;
+
+  &:last-child {
+    margin-bottom: 30px;
+  }
+}
+
+.section-tienda-contenedor p {
+  text-align: start;
+  color: white;
+  margin-top: 23px;
+}
+
+.arma-estado:hover {
+  color: red;
+  transition: 0.6s;
+}
+
+.active-filter {
+  color: red;
+}
+
+.ruta {
+  cursor: default !important;
+  font-weight: bold;
+}

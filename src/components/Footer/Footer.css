@@ -1,0 +1,64 @@
+Footer {
+  min-width: 600px;
+}
+
+Footer a {
+  color: white;
+}
+
+Footer .h3 {
+  font-family: "Rubik";
+}
+
+Footer .bi {
+  font-size: 23px;
+  padding: 5px;
+}
+
+Footer i:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+Footer .footer-2 {
+  height: 1px;
+}
+
+.contacto {
+  text-align: center;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  color: white;
+  font-size: 60px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.secciones:hover {
+  color: red;
+  transition: 0.6s;
+}
+
+@media (max-width: 767px) {
+  .row > .skins {
+    margin-top: 30px;
+  }
+
+  .nosotros {
+    margin-top: 10px;
+  }
+
+  .contacto {
+    text-align: start;
+    margin-top: 10px;
+  }
+
+  .nav-links ul {
+    justify-content: start;
+  }
+}

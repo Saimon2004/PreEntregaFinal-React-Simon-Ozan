@@ -1,0 +1,27 @@
+.div-carrito{
+    position: relative;
+}
+
+#boton-carrito{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.div-carrito p{
+    width: 2.8ch;
+    height: 2.8ch;
+    padding: 1.4ch;
+    position: absolute;
+    top: -15px;
+    right: -16px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+

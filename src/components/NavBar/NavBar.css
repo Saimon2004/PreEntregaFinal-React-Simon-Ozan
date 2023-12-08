@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 600px;
+    background-color: black;
+}
+
+nav li {
+    margin: 0px 30px;
+    display: inline-block;
+    position: relative;
+}
+
+nav li::after {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav li:hover::after {
+    width: 100%;
+    transition: 0.3s;
+}
+
+nav li a {
+    color: white;
+    font-weight: bold;
+}
+
+
+nav li a:hover {
+    color: red;
+    transition: 0.3s;
+}
+
+.logo-nav {
+    color: white;
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+}
+
+.active{
+    color: red;
+}

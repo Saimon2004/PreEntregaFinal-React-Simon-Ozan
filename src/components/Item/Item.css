@@ -1,0 +1,106 @@
+main {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/fondos/Fondo-tienda.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    
+
+    min-height: 90vh;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.ul-main {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+
+.skin {
+    height: 413px;
+    width: 319px;
+    background-color: rgba(255, 255, 255, 0.617);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skin-texto {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-wrap: pretty;
+}
+
+.hr {
+    width: 75%;
+    margin: auto;
+    border-top: 2px solid black;
+    opacity: 1;
+}
+
+
+.precio-texto {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.boton-anadir {
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    font-weight: bold;
+    padding: 10px 78px;
+    text-transform: uppercase;
+    border: none;
+    display: inline-block;
+    margin-top: 5px;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+.boton-anadir:hover {
+    background-color: red;
+    transition: 0.7s;
+}
+
+.boton-no-anadir{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    font-weight: bold;
+    padding: 10px 78px;
+    text-transform: uppercase;
+    border: none;
+    display: inline-block;
+    margin-top: 5px;
+    position: relative;
+    cursor: default !important;
+    opacity: 0.5;
+    user-select: none;
+    width: 100%;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+.ul-main h1{
+    display: flex;
+    align-items: center;
+}
